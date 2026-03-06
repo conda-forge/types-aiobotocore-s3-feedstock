@@ -1,5 +1,5 @@
 {% set name = "types-aiobotocore-s3" %}
-{% set version = "3.2.0" %}
+{% set version = "3.2.1" %}
 {% set lib_version = version.split(".post")[0] %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 23d03c3f468f47191eb74f0052d6c1ec6a9b49c1b5765fcd5a93b3c06d78e621
+  sha256: 764f08d352f2cc4f8b84877ce9a4d1014b45b2325c70f1093ed09c0ce41f1abd
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
