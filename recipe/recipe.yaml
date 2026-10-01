@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "3.9.1"
+  version: "3.9.2"
   lib_version: ${{ version | split('.post') | first }}
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-aiobotocore-s3/types_aiobotocore_s3-${{ version }}.tar.gz
-  sha256: ec7e375953c05fca2f2560b7b8bbcea0cf136e4226f9edf72f0f236ec0b5f20b
+  sha256: 10709325d2acc792ad9fa12d0fff93103d0685a36e4e08c1e8252ba80ca86570
 
 build:
   number: 0
